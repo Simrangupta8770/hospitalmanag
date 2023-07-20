@@ -58,14 +58,14 @@ check('email').notEmpty().isEmail().withMessage('Valid Email required')],functio
             port: 465,
             secure: true,
             auth: {
-                user: 'simrangupta9630@gmail.com',
-                pass: 'lpkvfzmbwwxdohdo'
+                user: '',
+                pass: ''
             }
 
         });
         var mailOptions = {
 
-            from: 'simrangupta9630@gmail.com', 
+            from: '', 
             to: email, 
             subject: 'Email Verification', // Subject line
             html: output// plain text body
