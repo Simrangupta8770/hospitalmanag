@@ -4,26 +4,26 @@ Hospital management system using nodejs , express , mysql and ejS
 
 Home
 
-![](screenshot/home.PNG)
+![](screenshot/home.png)
 
 Sign Up
 
-![](screenshot/signup.PNG)
+![](screenshot/signup.png)
 
 Verification token sent for verification after SignUp
 
-![](screenshot/vtok.PNG)
+![](screenshot/vtok.png)
 
 Dash Board
 
-![](screenshot/dash1.PNG)
-![](screenshot/dash2.PNG)
+![](screenshot/dash1.png)
+![](screenshot/dash2.png)
 
 View/Add/Update appointments
 
-![](screenshot/app.PNG)
+![](screenshot/app.png)
 
 View/Add Doctors
 
-![](screenshot/doc.PNG)
+![](screenshot/doc.png)
 
