@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://cdn.jsdelivr.net/npm/promise-polyfill9/dist/polyfill.js"></script>
+	
+	<head>
+		<meta charset="utf-8">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+		<link rel="manifest" href="/assets/img/site.webmanifest">
+		<title>Login Form </title>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<style>
+		.login-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.login-form h1 {
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form input[type="password"],
+		.login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div class="login-form">
+			<h1>Login Form</h1>
+			<form action="" method="POST">
+				<input type="text" name="username" placeholder="Username" >
+				<input type="password" name="password" placeholder="Password" >
+				<button class="btn btn-primary account-btn w-100" type="submit" onclick="click()">Log In</button>
+				<script>
+					function click(){
+						swal ("You are logged in");
+					}
+				</script>
+				<br>
+				<div class="w-100">
+					<span><a href="/signup">Sign Up</a></span>
+					<br>
+					<span><a href="http://localhost:3000/resetpassword">Forget Password</a></span>
+				</div>
+				
+				
+			</form>
+		</div>
+		<div>
+			
+		</div>
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+	</body>
+</html>
